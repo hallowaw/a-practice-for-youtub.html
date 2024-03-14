@@ -1,0 +1,85 @@
+
+.thumbnail{
+    width: 100%;    
+    display:inline-block;
+    
+}
+
+.video-title{
+    display: inline-block;
+    font-size: 17;
+    margin-top: 0;
+    font-weight:500;
+    line-height: 20px;
+    margin-bottom: 10px;
+}
+.video-author{
+    font-size: 12px;
+    color: rgb(96,96,96);
+    margin-bottom: 8px;
+
+}
+.video-stats{
+    font-size: 12px;
+    color:rgb(96,96,96)
+}
+
+.video-info-grid{
+    display: grid;
+    grid-template-columns: 50px 1fr;
+}
+.channel-pictures{
+
+    vertical-align: top;
+}
+.video-info{
+ 
+    display: inline-block;
+}
+.profile-picture{
+    width: 36px;
+    border-radius: 50px;
+}
+.thumbnail-row{
+    margin-bottom:8px;
+    position: relative;
+}
+.video-grid{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 16px;
+    row-gap: 40px;
+    padding-top: 80px;
+    padding-left:96px ;
+    margin: 0;
+    margin-right: 24px;
+    background-color: rgb(248,248,248);
+}
+@media(max-width:750px){
+    .video-grid{
+        grid-template-columns: 1fr 1fr;
+            }
+}
+@media(min-width:1000px){
+    .video-grid{
+grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
+@media(min-width:751px)and(max-width:999px){
+    .video-grid{
+        grid-template-columns: 1fr 1fr 1fr;
+            }
+}
+.video-time{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    padding:4px;
+    border-radius: 2px;
+    background-color: black;
+    color: white;
+    position:absolute;
+    bottom:8px;
+    right:5px;
+
+}
